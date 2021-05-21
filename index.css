@@ -1,0 +1,54 @@
+.body {
+    background-image: url("sky.png");
+    background-size:100% 200%;
+    text-align: center;
+    font-size: 20px;
+  }
+
+.table，th,td{
+  border: 1px solid black; 
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  width: 40%;
+  margin:0 auto;
+  margin-top:10%;
+  background-color: rgb(101, 101, 212);
+  
+}
+/* table的各项设置    */
+.div-table{
+  margin:0 auto;
+}
+.tr-title{
+height: 50px ;
+font-weight: bold;
+font-size: 70px;
+  
+}
+.tr-body{
+
+}
+
+.td-title{
+ width: 30%;
+ height: 30px;
+
+}
+.td-body{
+  width: 70%;
+   height: 30px;
+
+}
+/* 置底 */
+.div-bottom{
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  bottom: 50px;
+
+}
+.hr-bottom{
+  margin-bottom: 20px;
+}
