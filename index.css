@@ -1,39 +1,41 @@
 .body {
     background-image: url("sky.png");
     background-size:100% 200%;
-    text-align: center;
+  
     font-size: 20px;
   }
 
 .table，th,td{
   border: 1px solid black; 
-  text-align: center;
+  
 }
 table {
   border-collapse: collapse;
   width: 40%;
   margin:0 auto;
   margin-top:10%;
-  background-color: rgb(101, 101, 212);
+  background-color: rgb(208, 208, 240);
   
 }
 /* table的各项设置    */
+/* table居中 */
 .div-table{
   margin:0 auto;
 }
+/* 表头 */
 .tr-title{
-height: 50px ;
-font-weight: bold;
-font-size: 70px;
+  height: 50px ;
+  font-weight: bold;
+  font-size: 70px;
+  text-align: center;
   
 }
-.tr-body{
-
-}
+/* 下方模块 */
 
 .td-title{
  width: 30%;
  height: 30px;
+ text-align: center;
 
 }
 .td-body{
@@ -47,8 +49,22 @@ font-size: 70px;
   height: 50px;
   width: 100%;
   bottom: 50px;
+  text-align: center;
 
 }
+/* 分割线和备案号的距离 */
 .hr-bottom{
   margin-bottom: 20px;
+}
+
+/* 作品 */
+.zuopin{
+  text-align: center;
+  color: bisque;
+  margin-top: 30px;
+}
+.zuopin-title{
+  font-weight: bold;
+  font-size: 25px;
+  
 }
