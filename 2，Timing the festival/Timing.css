@@ -1,0 +1,19 @@
+html {
+    background-size: cover;
+    background-image: url(./home_loading.jpg);
+}
+
+.box {
+    border-radius: 30px;
+    padding: 50px 100px 100px 100px;
+    background: rgba(255, 255, 255, 0.7);
+    font-size: 25px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+div {
+    margin: 15px 0;
+}
