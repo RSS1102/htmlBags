@@ -8,9 +8,9 @@
 ### 2，“摸鱼神器”（倒计时） 
  *【branch：sprags】*
 
-* 对于时间的处理（设定，获得，相减）。
+* 对于时间的处理（格式化）。
 * switch简化if。
-* 通过js判断设备类型（pc/app）
+* 轮询
 * https://www.cokbbs.games/
 
 * ![image](https://user-images.githubusercontent.com/81673017/142773634-c049b5de-9569-4022-b9be-f29fbd4fa2ec.png)
