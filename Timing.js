@@ -5,6 +5,8 @@ let toYear = ToDay.getFullYear()
 function getDay() {
     let toMonth = ToDay.getMonth() + 1
     let toDay = ToDay.getDate()
+    toMonth < 10 ? toMonth = "0" + toMonth : ''
+    toDay < 10 ? toDay = "0" + toDay : ''
     let thisDay = `${toMonth}月${toDay}日`
     document.getElementById("thisDay").innerHTML = thisDay;
 }
@@ -15,9 +17,10 @@ function getTime() {
     let toHour = Time.getHours()
     let toMinute = Time.getMinutes()
     let toSecond = Time.getSeconds()
-    if (toSecond < 10) {
-        toSecond = "0" + toSecond
-    }
+    toHour < 10 ? toHour = "0" + toHour : ''
+    toMinute < 10 ? toMinute = "0" + toMinute : ''
+    toSecond < 10 ? toSecond = "0" + toSecond : ''
+
     let thisTime = `${toHour}:${toMinute}:${toSecond}`
     console.log(toHour, toMinute, toSecond, thisTime)
         // setTimeout(getTime, 1000)
