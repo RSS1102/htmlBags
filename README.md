@@ -11,7 +11,7 @@
 * 对于时间的处理（格式化）。
 * switch简化if。
 * 轮询
-* https://www.cokbbs.games/
+* [rss1102.github.io/htmlbags](rss1102.github.io/htmlbags)
 
 * ![image](https://user-images.githubusercontent.com/81673017/142773634-c049b5de-9569-4022-b9be-f29fbd4fa2ec.png)
 

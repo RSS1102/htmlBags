@@ -1,7 +1,7 @@
 html {
-    background-size: cover;
     background-image: url(./home_loading.jpg);
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: repeat;
     background-size: 100%;
     overflow: hidden;
 }
@@ -23,12 +23,14 @@ html {
 .title {
     font-size: 35px;
     text-align: center;
-    text-shadow: 5px 5px 5px #6d6868;
+    text-shadow: 2px 5px 5px #6d6868;
 }
 
 .time {
     text-align: center;
-    color: rgb(250, 0, 0);
+    color: rgb(255, 132, 0);
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
 }
 
 div {
