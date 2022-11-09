@@ -3,13 +3,13 @@
     <div class="the-body">
         <div class="box">
             <div>start:查看控制台网络请求</div>
-            <div><img src="" data-origin="/src/assets/1.jpg" /></div>
-            <div><img src="" data-origin="/src/assets/2.jpg" /></div>
-            <div><img src="" data-origin="/src/assets/3.jpg" /></div>
-            <div><img src="" data-origin="/src/assets/4.jpg" /></div>
-            <div><img src="" data-origin="/src/assets/5.jpg" /></div>
-            <div><img src="" data-origin="/src/assets/6.jpg" /></div>
-            <div><img src="" data-origin="/src/assets/8.jpg" /></div>
+            <div><img src="" data-origin="https://raw.githubusercontent.com/RSS1102/htmlBags/main/src/assets/1.jpg" /></div>
+            <div><img src="" data-origin="https://raw.githubusercontent.com/RSS1102/htmlBags/main/src/assets/2.jpg" /></div>
+            <div><img src="" data-origin="https://raw.githubusercontent.com/RSS1102/htmlBags/main/src/assets/3.jpg" /></div>
+            <div><img src="" data-origin="https://raw.githubusercontent.com/RSS1102/htmlBags/main/src/assets/4.jpg" /></div>
+            <div><img src="" data-origin="https://raw.githubusercontent.com/RSS1102/htmlBags/main/src/assets/5.jpg" /></div>
+            <div><img src="" data-origin="https://raw.githubusercontent.com/RSS1102/htmlBags/main/src/assets/6.jpg" /></div>
+            <div><img src="" data-origin="https://raw.githubusercontent.com/RSS1102/htmlBags/main/src/assets/8.jpg" /></div>
             <div>end</div>
         </div>
     </div>
