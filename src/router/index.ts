@@ -7,14 +7,12 @@ import Index from '@/pages/index.vue'
 const routers: RouteRecordRaw[] = [
     {
         path: '/',
-        name: '/',
-        children: []
+        redirect:'/index'
     },
     {
         path: '/index',
         name: 'index',
-        component: Index,
-        children: []    
+        component: Index  
     },
     ...Menus
    
