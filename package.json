@@ -5,20 +5,16 @@
   "private": true,
   "scripts": {
     "dev": "turbo run start --parallel --no-cache",
-    "doc": "turbo run docs:dev --filter=wujie-doc",
     "build": "turbo run build --filter=\"wujie-*\" --filter=wujie",
     "clean": "rimraf node_modules **/*/node_modules",
     "test": "turbo run test",
-    "lint": "turbo run lint --filter wujie",
-    "commitlint": "commitlint -E COMMIT_EDITMSG_PATH",
-    "husky-commitlint": "commitlint -e",
-    "prepare": "husky install"
+    "lint": "turbo run lint --filter wujie"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Tencent/wujie.git"
+    "url": ""
   },
-  "author": "yiludege",
+  "author": "",
   "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.24.3",
