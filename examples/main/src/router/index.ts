@@ -6,22 +6,18 @@ const routes: RouteRecordRaw[] = [
     name: "Home",
     component: () => import("../pages/home/index.vue"),
   },
-  // {
-  //   path: "/vue",
-  //   name: "Vue",
-  //   children: [
-  //     {
-  //       path: "vue",
-  //       name: "vue",
-  //       component: () => import("@/pages/home/index.vue"),
-  //     },
-  //     {
-  //       path: "imageLazyLoading",
-  //       name: "imageLazyLoading",
-  //       component: () => import("@/pages/imageLazyLoading/index.vue"),
-  //     },
-  //   ],
-  // },
+  {
+    path: "/vue",
+    name: "Vue",
+    component: () => import("/@/layout/index.vue"),
+    children: [
+      {
+        path: "imageLazyLoading",
+        name: "imageLazyLoading",
+        component: () => import("/@/pages/imageLazyLoading/index.vue"),
+      },
+    ],
+  },
   // {
   //   path: "/react",
   //   name: "React",

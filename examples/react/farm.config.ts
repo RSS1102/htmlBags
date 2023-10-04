@@ -17,7 +17,6 @@ export default defineConfig({
     resolve: {
       alias: {
         "/@": path.join(process.cwd(), "src"),
-        stream$: "readable-stream",
       },
     },
   },
