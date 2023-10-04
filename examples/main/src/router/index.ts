@@ -4,7 +4,7 @@ const routes: RouteRecordRaw[] = [
   {
     path: "/",
     name: "Home",
-    component: () => import("../pages/home/index.vue"),
+    component: () => import("/@/pages/home/index.vue"),
   },
   {
     path: "/vue",
@@ -18,17 +18,18 @@ const routes: RouteRecordRaw[] = [
       },
     ],
   },
-  // {
-  //   path: "/react",
-  //   name: "React",
-  //   children: [
-  //     {
-  //       path: "/",
-  //       name: "React",
-  //       component: () => import("@/react/index.vue"),
-  //     },
-  //   ],
-  // },
+  {
+    path: "/react",
+    name: "React",
+    component: () => import("/@/layout/index.vue"),
+    children: [
+      {
+        path: "",
+        name: "React",
+        component: () => import("/@/pages/react/index.vue"),
+      },
+    ],
+  },
 ];
 
 export const router = createRouter({

@@ -1,12 +1,11 @@
 import type { UserConfig } from "@farmfe/core";
 import path from "path";
-import farmJsPluginReact from "@farmfe/plugin-react";
 function defineConfig(config: UserConfig) {
   return config;
 }
 
 export default defineConfig({
-  plugins: [farmJsPluginReact],
+  plugins: ['@farmfe/plugin-react'],
   server: {
     port: 9001,
     headers: {
