@@ -3,13 +3,13 @@
   <div class="the-body">
     <div class="box">
       <div>start:查看控制台网络请求</div>
-      <div><img src="" data-origin="https://raw.githubusercontent.com/RSS1102/htmlBags/main/src/assets/lazyOnloadImg/1.jpg" /></div>
-      <div><img src="" data-origin="https://raw.githubusercontent.com/RSS1102/htmlBags/main/src/assets/lazyOnloadImg/2.jpg" /></div>
-      <div><img src="" data-origin="https://raw.githubusercontent.com/RSS1102/htmlBags/main/src/assets/lazyOnloadImg/3.jpg" /></div>
-      <div><img src="" data-origin="https://raw.githubusercontent.com/RSS1102/htmlBags/main/src/assets/lazyOnloadImg/4.jpg" /></div>
-      <div><img src="" data-origin="https://raw.githubusercontent.com/RSS1102/htmlBags/main/src/assets/lazyOnloadImg/5.jpg" /></div>
-      <div><img src="" data-origin="https://raw.githubusercontent.com/RSS1102/htmlBags/main/src/assets/lazyOnloadImg/6.jpg" /></div>
-      <div><img src="" data-origin="https://raw.githubusercontent.com/RSS1102/htmlBags/main/src/assets/lazyOnloadImg/7.jpg" /></div>
+      <div><img src="" data-origin="https://raw.githubusercontent.com/RSS1102/htmlBags/main/examples/main/src/assets/lazyOnloadImg/1.jpg" /></div>
+      <div><img src="" data-origin="https://raw.githubusercontent.com/RSS1102/htmlBags/main/examples/main/src/assets/lazyOnloadImg/2.jpg" /></div>
+      <div><img src="" data-origin="https://raw.githubusercontent.com/RSS1102/htmlBags/main/examples/main/src/assets/lazyOnloadImg/3.jpg" /></div>
+      <div><img src="" data-origin="https://raw.githubusercontent.com/RSS1102/htmlBags/main/examples/main/src/assets/lazyOnloadImg/4.jpg" /></div>
+      <div><img src="" data-origin="https://raw.githubusercontent.com/RSS1102/htmlBags/main/examples/main/src/assets/lazyOnloadImg/5.jpg" /></div>
+      <div><img src="" data-origin="https://raw.githubusercontent.com/RSS1102/htmlBags/main/examples/main/src/assets/lazyOnloadImg/6.jpg" /></div>
+      <div><img src="" data-origin="https://raw.githubusercontent.com/RSS1102/htmlBags/main/examples/main/src/assets/lazyOnloadImg/7.jpg" /></div>
       <div>end</div>
     </div>
   </div>
